@@ -1,10 +1,11 @@
 import React from 'react'
-import { Navbar, Welcome } from "#components/index.js";
+import { Navbar, Welcome, Dock } from "#components/index.js";
 const App = () => {
   return (
     <main>
       <Navbar />
       <Welcome />
+      <Dock />
 
     </main>
   )
